@@ -147,9 +147,9 @@
   margin: auto;
 }
 .loader--text:after {
-  content: "LOADING";
+  content: "Please Wait";
   font-weight: bold;
-  font-size: xxx-large;
+  font-size: large;
   animation-name: loading-text;
   animation-duration: 3s;
   /*animation-iteration-count: infinite;*/
@@ -174,30 +174,30 @@
     content: "CONNECTING";
   }
   10% {
-    content: "CONNECTING";
+    content: "CONNECTING.";
   }
   15% {
-    content: "VERIFYING";
+    content: "CONNECTING..";
   }
-  35% {
-    content: "VERIFIED";
+  25% {
+    content: "CONNECTING...";
   }
   40% {
-    content: "LOADING";
+    content: "CONNECTED";
   }
   50% {
     content: "LOADING";
   }
   60% {
-    content: "LOADING";
+    content: "LOADING.";
   }
   70% {
-    content: "LOADING";
+    content: "LOADING..";
   }
   80% {
-    content: "LOADING";
+    content: "LOADING...";
   }
   90% {
-    content: "LOADING";
+    content: "RENDERING";
   }
 }
