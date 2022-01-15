@@ -176,28 +176,25 @@
   10% {
     content: "CONNECTING.";
   }
-  15% {
+  25% {
     content: "CONNECTING..";
   }
-  25% {
+  40% {
     content: "CONNECTING...";
   }
-  40% {
+  55% {
     content: "CONNECTED";
-  }
-  50% {
-    content: "";
   }
   60% {
     content: "LOADING";
   }
-  70% {
+  75% {
     content: "LOADING..";
   }
-  80% {
+  90% {
     content: "LOADING...";
   }
-  90% {
+  95% {
     content: "LOADING....";
   }
 }
