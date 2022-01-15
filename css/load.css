@@ -186,10 +186,10 @@
     content: "CONNECTED";
   }
   50% {
-    content: "LOADING";
+    content: "";
   }
   60% {
-    content: "LOADING.";
+    content: "LOADING";
   }
   70% {
     content: "LOADING..";
@@ -198,6 +198,6 @@
     content: "LOADING...";
   }
   90% {
-    content: "RENDERING";
+    content: "LOADING....";
   }
 }
