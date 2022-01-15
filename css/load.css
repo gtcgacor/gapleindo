@@ -171,30 +171,30 @@
 }
 @keyframes loading-text {
   1% {
-    content: "CONNECTING";
+    content: "G";
   }
   10% {
-    content: "CONNECTING.";
+    content: "GA";
   }
-  25% {
-    content: "CONNECTING..";
+  20% {
+    content: "GAP";
+  }
+  30% {
+    content: "GAPL";
   }
   40% {
-    content: "CONNECTING...";
+    content: "GAPLE";
   }
-  55% {
-    content: "CONNECTED";
+  50% {
+    content: "GAPLE  I";
   }
   60% {
-    content: "LOADING";
+    content: "GAPLE IN";
   }
-  75% {
-    content: "LOADING..";
+  70% {
+    content: "GAPLE IND";
   }
-  90% {
-    content: "LOADING...";
-  }
-  95% {
-    content: "LOADING....";
+  80% {
+    content: "GAPLE INDO";
   }
 }
